@@ -1,0 +1,25 @@
+/* Elements */
+
+/* Identifiers */
+
+/* Classes */
+
+.summary {
+  padding: 1rem;
+  width: 40%;
+  border-radius: 1.5rem;
+  margin: auto;
+  display: block;
+}
+
+.presentation {
+  border-top: 0.2rem ridge black;
+  border-bottom: 0.3rem ridge black;
+  /*outline-style: ridge;*/
+  background-color: var(--third-color);
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+
+/* Media queries */

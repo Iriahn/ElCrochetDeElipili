@@ -1,0 +1,63 @@
+/* Elements */
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  -webkit-text-stroke: 0.0625rem white;
+}
+
+
+/* Identifiers */
+/* Classes */
+
+.photo {
+  padding: 0.3125rem;
+  align-self: center;
+  text-align: center;
+  width: 18.75rem;
+  height: 18.75rem;
+  border-radius: 1.5625rem;
+}
+
+.name {
+  padding: 0.625rem;
+  text-align: center;
+  text-shadow: 0.0625rem 0.1875rem 0.3125rem rgb(83, 83, 83);
+  -webkit-text-stroke: 0.015625rem white;
+}
+
+.description {
+  width: cover;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+.cost {
+  width: 1.875rem;
+  height: 1.875rem;
+  padding: 0.3125rem;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  border: 0.125rem solid black;
+  background-color: var(--third-color);
+  border-radius: 1.25rem;
+  margin: 1.875rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* NTH child: https://developer.mozilla.org/es/docs/Web/CSS/:nth-child */
+:nth-child(even of div.product) {
+  flex-direction: row-reverse;
+}
+
+/* Media queries */

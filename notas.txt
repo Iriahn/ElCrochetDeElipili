@@ -1,0 +1,36 @@
+
+Notas presentación.
+
+- Temas interesantes para hablar.
+
+  - General.
+
+     - Presentación básica del proyecto: ¿Qué es?, ¿Por qué he decidido hacerlo?, aprendizajes generales. 
+
+  - HTML.
+
+     - Uso de elementos semánticos más allá de <div> como <header>, <footer>, <main> o <nav>.
+        - https://www.freecodecamp.org/espanol/news/elementos-semanticos-html5-explicados/
+        - https://platzi.com/clases/2467-frontend-developer/40832-que-es-html-semantico/
+
+
+  - CSS.
+
+     - Uso de CSS custom properties (variables).
+        - https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties
+     - Uso del elmento :root y y unidades rem.
+        - https://developer.mozilla.org/es/docs/Web/CSS/:root
+        - https://www.freecodecamp.org/espanol/news/aprende-unidades-de-medidad-css-em-rem-vh-y-vw-con-ejemplos-de-codigos/
+     - Uso de pseudo-clases como :nth-child.
+        - https://developer.mozilla.org/es/docs/Web/CSS/:nth-child  
+
+  - Javascript.
+
+     - Uso general de funciones, arrays, bucles.
+     - ¿Qué me ha parecido Javascript?
+
+  - Otros.
+
+     - ¿Qué me ha parecido el curso?
+     - ¿Qué quiero hacer en el futuro?
+     - Cualquier otra cosa que se te ocurra.      

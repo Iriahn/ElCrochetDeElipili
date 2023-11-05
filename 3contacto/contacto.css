@@ -1,0 +1,20 @@
+/* Elements */
+/* Identifiers */
+
+#contact {
+  border-left: 0.3rem ridge black;
+  border-right: 0.3rem ridge black;
+  text-align: center;
+  width: 60%;
+  background-color: var(--third-color);
+  margin: auto;
+  padding: 0.125rem;
+  margin-top: 1rem;
+}
+/* Classes */
+
+.social_network {
+  color: purple;
+}
+
+/* Media queries */

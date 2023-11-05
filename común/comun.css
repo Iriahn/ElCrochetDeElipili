@@ -1,0 +1,77 @@
+/* Root and imports*/
+
+/* Pseudo-clase root: https://developer.mozilla.org/es/docs/Web/CSS/:root */
+:root {
+  font-size: 16px;
+
+  /* CSS custom properties: https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties */
+  --main-color: rgb(253, 253, 170);
+  --second-color: #b0b064;
+  --third-color: #e9d4ff;
+
+  /* Unidades relativas: https://www.freecodecamp.org/espanol/news/aprende-unidades-de-medidad-css-em-rem-vh-y-vw-con-ejemplos-de-codigos/ */
+}
+
+/* Elements */
+
+html {
+  font-family: "Brush Script MT", cursive, serif;
+  background-color: var(--main-color);
+  background-position: center;
+  background-position-x: center;
+}
+
+footer {
+  border-top: 0.15rem solid black;
+  background-color: var(--second-color);
+  width: cover;
+  height: 1.9rem;
+  text-align: center;
+  padding: 0.65rem;
+  margin: 1.25rem;
+  font-size: 0.75rem;
+}
+
+nav {
+  text-align: center;
+  background-color: var(--second-color);
+  border: 0.15rem solid var(--second-color);
+  border-radius: 1.25rem;
+  width: cover;
+  height: 1.25rem;
+  padding: 0.5rem;
+  box-shadow: 0.3rem 0.5rem 1.25rem var(--second-color);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0.625rem;
+}
+
+h1,
+h2 {
+  font-family: "Lucida Handwriting", cursive, serif;
+}
+
+header {
+  background-image: url("../Fotos/Banner.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  opacity: 0.75;
+}
+
+/* Identifiers */
+
+/* Classes */
+
+.logo {
+  width: 15%;
+  border-radius: 1.57rem;
+  z-index: 1;
+  opacity: 0.9;
+  border: 0.25rem ridge black;
+}
+
+/* Media queries */
