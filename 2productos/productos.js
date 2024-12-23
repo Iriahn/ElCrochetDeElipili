@@ -26,7 +26,7 @@ function typefilter() {
     //If the filter is in all it shows all products with flex display.
     if (filtervalue === "all") {
       pr.style.display = "flex";
-    } else if (filtervalue === "earrings") {
+    } else if (filtervalue === "earrings" || filtervalue === "purses" || filtervalue === "blankets" || filtervalue === "various") {
       //If the product contains the class "earrings" it's shown.
       if (!pr.classList.contains(filtervalue)) {
         pr.style.display = "none";
