@@ -6,6 +6,15 @@ h1 {
   -webkit-text-stroke: 0.0625rem white;
 }
 
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 0.2rem solid black;
+  background-color: white;
+  cursor: pointer;
+  width: auto;
+  align-self: initial;
+}
 
 /* Identifiers */
 /* Classes */
